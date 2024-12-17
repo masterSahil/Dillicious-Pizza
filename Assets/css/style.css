@@ -390,6 +390,9 @@ main{
 .bgImg3{
     background: url('../images/cards/col3.jpg');
 }
+.bgImg3 > .para5{
+    color: var(--primary-color);
+}
 .card-section{
     max-width: 1320px;
     margin: 0 auto;
@@ -505,7 +508,7 @@ main{
 .containingImg::before{
     position: absolute;
     top: -55px;
-    left: -55px;
+    left: -75px;
     content: url('../images/contentImg/circle-ellipse.png');
     transform: scale(.9);
 }
@@ -706,12 +709,4 @@ main{
 }
 .pizza-part5{
     bottom: 100px;
-}
-.video-bg{
-    max-width: 100%;
-    height: 110vh;
-    object-fit: cover;
-    object-position: center;
-    position: fixed;
-    z-index: -1;
 }
