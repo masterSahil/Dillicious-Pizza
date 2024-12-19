@@ -929,6 +929,7 @@ footer{
     background-position: right;
     color: var(--white-color);
     padding: 5vw 0 3vw 0;
+    background-repeat: no-repeat
 }
 .footerLogo{
     max-height: 60px;
