@@ -212,6 +212,10 @@ header{
 /* Banner Section */
 .banner{
     background: var(--primary-color);
+    background-image: url('../images/banner/transparent-pattern-img.webp');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 8vw 0;
 }
 .container{
@@ -222,6 +226,7 @@ header{
     font-size: 50px;
     text-shadow: 5px 6px 5px rgba(0,0,0,.21);
     margin: 0;
+    text-wrap: nowrap;
 }
 .heading, .span, .para5, .span2, .para7, .time-left, .span3, .para11, .span5, .span6, .para13{
     color: var(--ternary-color);
@@ -231,7 +236,7 @@ header{
 }
 .para3{
     color: var(--white-color);
-    margin-left: 3vw;
+    margin-left: 25px;
     font-size: 24px;
 }
 .discount{
@@ -241,7 +246,7 @@ header{
 .discount::before{
     position: absolute;
     top: 0;
-    left: 0;
+    left: -20px;
     content: url('../images/banner/pattern-bg-img.png');
 }
 .heading2{
@@ -294,7 +299,7 @@ header{
 }
 .banner2::after{
     position: absolute;
-    top: 30vw;
+    top: 20vw;
     left: -5vw;
     content: url('../images/banner/leaf-vegetable.webp');
 }
@@ -354,12 +359,12 @@ header{
     position: relative;
 }
 .leaf{
-    margin: 1vw 10vw 2vw 0;
+    margin: 1vw 10vw 0 0;
 }
 .pizza-content::after{
     position: absolute;
     content: url('../images/about/pizza-box.png');
-    top: 25vw;
+    top: 18vw;
     right: 20px;
 }
 .info{
@@ -392,7 +397,7 @@ header{
     color: var(--primary-color);
 }
 .card-section{
-    max-width: 1320px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 .bgImg1, .bgImg2, .bgImg3{
@@ -429,6 +434,7 @@ header{
 .bgImg1::after, .bgImg2::after, .bgImg3::after{
     bottom: 0;
     right: -20px;
+    transform: scale(1.1);
 }
 .bgImg1::before, .bgImg2::before, .bgImg3::before, .bgImg1::after, .bgImg2::after, .bgImg3::after{
     position: absolute;
@@ -437,6 +443,8 @@ header{
 .info3{
     padding: 0 3vw;
     border-radius: 20px;
+    height: 303px;
+    width: 403px;
 }
 .para5{
     margin: 2vw 0 0 0;
@@ -489,6 +497,7 @@ header{
     height: 30vw;
     background: var(--ternary-color);
     border-radius: 50%;
+    overflow: visible;
 }
 .heading7{
     font-size: 28px;
@@ -504,10 +513,10 @@ header{
 }
 .containingImg::before{
     position: absolute;
-    top: -55px;
+    top: 10px;
     left: -75px;
     content: url('../images/contentImg/circle-ellipse.png');
-    transform: scale(.9);
+    transform: scale(1.12);
 }
 .h71::before{
     content: '01';
@@ -549,7 +558,7 @@ header{
 }
 .dish-section{
     margin: 0 auto;
-    max-width: 1320px;
+    max-width: 1500px;
     background: var(--white-color);
     transform: scaleX(.95);
     border-radius: 50px;
@@ -678,7 +687,7 @@ header{
     font-family: var(--cursive-fonts);
 }
 .discount-bg{
-    top: 10vw;
+    top: 150px;
 }
 .content2{
     transform: translateX(-25px);
@@ -785,8 +794,8 @@ header{
 }
 .service-section::before{
     position: absolute;
-    top: 110px;
-    left: 9vw;
+    top: 165px;
+    left: 355px;
     content: url('../images/contentImg/circle-ellipse.png');
     transform: scale(.85);
 }
@@ -830,13 +839,15 @@ header{
     position: absolute;
     background: url('../images/newsletter/newsletter-bg.jpg');
     background-repeat: no-repeat;
-    height: 13vw;
-    width: 82%;
+    height: 10vw;
+    width: 68vw;
     top: -6vw;
-    left: 7vw;
+    left: 14vw;
     border-radius: 20px 20px 20px 20px;
     margin: 0 auto;
-    padding-left: 4vw;
+    background-size: cover;
+    background-position: right;
+    padding: 2vw 0 2vw 4vw;
 }
 .span6{
     font-size: var(--cursive-size);
@@ -889,7 +900,7 @@ header{
     font-size: var(--cursive-size);
 }
 .newsImg{
-    width: 26vw;
+    width: 21vw;
     border-radius: 20px;
 }
 .mleft{
